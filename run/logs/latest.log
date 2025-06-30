@@ -42,3 +42,153 @@
 [30июн.2025 16:16:53.296] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
 [30июн.2025 16:16:53.298] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
 [30июн.2025 16:16:53.716] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[30июн.2025 16:18:21.694] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[30июн.2025 16:18:23.286] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[30июн.2025 16:18:23.399] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[30июн.2025 16:18:23.844] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[30июн.2025 16:18:23.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30июн.2025 16:18:25.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30июн.2025 16:18:28.342] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:18:28.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:18:28.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:18:28.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:18:28.397] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:18:28.397] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:18:28.688] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:18:29.162] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 11%
+[30июн.2025 16:18:29.650] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 73%
+[30июн.2025 16:18:29.821] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30июн.2025 16:18:29.832] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4195 ms
+[30июн.2025 16:18:29.999] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[30июн.2025 16:18:30.001] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[30июн.2025 16:18:30.110] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[30июн.2025 16:18:30.533] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[30июн.2025 16:18:30.596] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:615d0ac2] logged in with entity id 225 at (25.546528817355703, 66.61758302582555, -226.00161098587822)
+[30июн.2025 16:18:30.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev присоединился к игре
+[30июн.2025 16:18:31.763] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5 advancements
+[30июн.2025 16:19:10.683] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30июн.2025 16:19:10.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30июн.2025 16:19:10.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30июн.2025 16:19:10.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30июн.2025 16:23:25.846] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 9 advancements
+[30июн.2025 16:23:27.126] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 12 advancements
+[30июн.2025 16:23:28.392] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 15 advancements
+[30июн.2025 16:23:29.642] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 18 advancements
+[30июн.2025 16:24:06.172] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30июн.2025 16:24:06.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30июн.2025 16:24:06.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30июн.2025 16:24:06.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30июн.2025 16:24:29.540] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:24:29.548] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:24:29.549] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 8.4
+[30июн.2025 16:24:29.550] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:24:45.224] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:24:45.224] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:24:45.224] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 9.1
+[30июн.2025 16:24:45.224] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:24:53.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:24:53.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:24:53.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 9.5
+[30июн.2025 16:24:53.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:24:56.522] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:24:56.522] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:24:56.523] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 9.4
+[30июн.2025 16:24:56.523] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:24:59.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Ваш режим игры изменён на Режим выживания]
+[30июн.2025 16:24:59.711] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Ваш режим игры изменён на Режим выживания
+[30июн.2025 16:25:02.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Ваш режим игры изменён на Режим наблюдателя]
+[30июн.2025 16:25:02.870] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Ваш режим игры изменён на Режим наблюдателя
+[30июн.2025 16:25:05.614] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:25:05.614] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 208 68 -63
+[30июн.2025 16:25:05.615] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 7.4
+[30июн.2025 16:25:05.615] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:25:12.205] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Отладка]: Хитбоксы: вкл.
+[30июн.2025 16:25:26.930] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:25:26.930] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:25:26.931] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 8.9
+[30июн.2025 16:25:26.931] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:25:39.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Ваш режим игры изменён на Режим выживания]
+[30июн.2025 16:25:39.291] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Ваш режим игры изменён на Режим выживания
+[30июн.2025 16:25:41.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Ваш режим игры изменён на Творческий режим]
+[30июн.2025 16:25:41.714] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Ваш режим игры изменён на Творческий режим
+[30июн.2025 16:25:50.228] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:25:50.228] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:25:50.228] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 10.1
+[30июн.2025 16:25:50.228] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:25:52.895] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:25:52.895] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:25:52.895] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 10.0
+[30июн.2025 16:25:52.895] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:26:52.908] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:26:52.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:26:52.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 10.1
+[30июн.2025 16:26:52.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:27:00.954] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:27:00.954] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:27:00.954] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 10.0
+[30июн.2025 16:27:00.954] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:27:13.818] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Отладка]: Хитбоксы: выкл.
+[30июн.2025 16:27:20.173] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30июн.2025 16:27:20.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30июн.2025 16:27:20.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30июн.2025 16:27:20.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30июн.2025 16:28:19.954] [Render thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[30июн.2025 16:28:19.975] [Render thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Started serving on 55526
+[30июн.2025 16:28:19.997] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Порт локального сервера: [55526]
+[30июн.2025 16:28:38.086] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:28:38.086] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 69 -63
+[30июн.2025 16:28:38.086] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 10.0
+[30июн.2025 16:28:38.086] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  
+[30июн.2025 16:28:40.936] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Снимок экрана сохранён как 2025-06-30_16.28.40.png
+[30июн.2025 16:29:34.984] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Отключение
+[30июн.2025 16:29:34.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev покинул игру
+[30июн.2025 16:29:34.993] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[30июн.2025 16:29:35.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30июн.2025 16:29:35.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30июн.2025 16:29:35.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30июн.2025 16:29:35.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30июн.2025 16:29:35.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30июн.2025 16:29:35.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30июн.2025 16:29:35.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[30июн.2025 16:29:35.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30июн.2025 16:29:35.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30июн.2025 16:29:35.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30июн.2025 16:29:38.472] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[30июн.2025 16:29:39.285] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[30июн.2025 16:29:39.320] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[30июн.2025 16:29:39.668] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[30июн.2025 16:29:39.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30июн.2025 16:29:40.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30июн.2025 16:29:41.892] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:29:41.892] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:29:41.892] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:29:42.302] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[30июн.2025 16:29:42.798] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 6%
+[30июн.2025 16:29:43.292] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 90%
+[30июн.2025 16:29:43.337] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30июн.2025 16:29:43.348] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2563 ms
+[30июн.2025 16:29:43.354] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[30июн.2025 16:29:43.356] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[30июн.2025 16:29:43.653] [Netty Local Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[30июн.2025 16:29:43.684] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f8b0ee9d] logged in with entity id 3054 at (200.09261811126083, 68.0, -62.48240244492524)
+[30июн.2025 16:29:43.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev присоединился к игре
+[30июн.2025 16:29:44.059] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 18 advancements
+[30июн.2025 16:29:45.590] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30июн.2025 16:29:45.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30июн.2025 16:29:45.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30июн.2025 16:29:45.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30июн.2025 16:29:52.914] [Render thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[30июн.2025 16:29:52.915] [Render thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Started serving on 2222
+[30июн.2025 16:29:52.921] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Порт локального сервера: [2222]
+[30июн.2025 16:30:42.865] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player O_B_V_ is 9ea97615-e1f2-4bc7-a5bc-1c8e83ad6dfd
+[30июн.2025 16:30:42.950] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: O_B_V_[/26.164.35.58:55803] logged in with entity id 3266 at (87.5, 72.0, -152.5)
+[30июн.2025 16:30:42.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: O_B_V_ присоединился к игре
+[30июн.2025 16:30:42.980] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] O_B_V_ присоединился к игре
+[30июн.2025 16:30:50.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [O_B_V_: O_B_V_ телепортирован к Dev]
+[30июн.2025 16:30:50.664] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [O_B_V_: O_B_V_ телепортирован к Dev]
+[30июн.2025 16:30:50.669] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: O_B_V_ moved too quickly! 112.62811958111263,-4.0,90.20509663632669
+[30июн.2025 16:30:50.673] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: O_B_V_ moved too quickly! 112.62811958111263,-4.0,90.20509663632669
+[30июн.2025 16:33:24.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [O_B_V_: Успешно заполнено 3402 блоков]
+[30июн.2025 16:33:24.058] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [O_B_V_: Успешно заполнено 3402 блоков]
+[30июн.2025 16:33:30.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [O_B_V_: Успешно заполнено 2142 блоков]
+[30июн.2025 16:33:30.839] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [O_B_V_: Успешно заполнено 2142 блоков]
