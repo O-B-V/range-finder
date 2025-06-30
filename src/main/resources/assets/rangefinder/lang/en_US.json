@@ -1,0 +1,8 @@
+{
+  "key.categories.rangeFinder": "Range Finder",
+  "key.rangefinder.rangeFinderKey": "Measure the distance",
+
+  "chat_screen.message.lookAtBlock": "You are looking at the block:",
+  "chat_screen.message.distanceToBlock": "Distance to the block:",
+  "chat_screen.message.blockNotDetected": "You're not looking at the block"
+}

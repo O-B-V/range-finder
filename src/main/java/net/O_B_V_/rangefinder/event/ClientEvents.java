@@ -4,6 +4,7 @@ import net.O_B_V_.rangefinder.util.KeyBindingHelper;
 import net.O_B_V_.rangefinder.Rangefinder;
 import net.minecraft.client.Camera;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Entity;
@@ -22,6 +23,8 @@ public class ClientEvents {
 
     @Mod.EventBusSubscriber(modid = Rangefinder.MOD_ID, value = Dist.CLIENT)
     public static class ClientForgeEvents {
+        static String CHAT_MESSAGE_LOOKATBLOCK = I18n.get("chat_screen.message.lookatblock", new Object[0]);
+
         @SubscribeEvent
         public static void onKeyInput(InputEvent.Key event) {
             if(KeyBindingHelper.rangeFinderKey.consumeClick()) {
@@ -42,16 +45,15 @@ public class ClientEvents {
 
                     if (result.getType() != HitResult.Type.MISS) {
                         BlockPos pos = result.getBlockPos();
-                            mc.player.sendSystemMessage(Component.literal("§6" + "Вы смотрите на блок:" + " §l§c" + pos.getX() + " §a" + pos.getY() + " §9" + pos.getZ()));
+                        mc.player.sendSystemMessage(Component.literal(" "));
+                            mc.player.sendSystemMessage(Component.literal("§6" + I18n.get("chat_screen.message.lookAtBlock") + " §l§c" + pos.getX() + " §a" + pos.getY() + " §9" + pos.getZ()));
                             double range;
                             range = Math.ceil(Math.sqrt((pos.getX()-x)*(pos.getX()-x)+(pos.getY()-y)*(pos.getY()-y)+(pos.getZ()-z)*(pos.getZ()-z))*10)/10;
-                            mc.player.sendSystemMessage(Component.literal("§6" + "Расстояние до блока:" + " §d" + range));
+                            mc.player.sendSystemMessage(Component.literal("§6" + I18n.get("chat_screen.message.distanceToBlock") + " §d" + range));
                         } else {
-                            mc.player.sendSystemMessage(Component.literal("§6" + "Вы не смотрите на блок"));
-                        }
-
+                            mc.player.sendSystemMessage(Component.literal("§6" + I18n.get("chat_screen.message.blockNotDetected")));
+                    }
                 }
-
             }
         }
     }
