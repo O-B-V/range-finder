@@ -1,109 +1,162 @@
-[30июн.2025 13:37:48.904] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\blink\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.2, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[30июн.2025 13:37:48.909] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Microsoft; OS Windows 11 arch amd64 version 10.0
-[30июн.2025 13:37:49.021] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[30июн.2025 13:37:49.132] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[30июн.2025 13:37:49.798] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[30июн.2025 13:37:49.894] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/blink/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[30июн.2025 13:37:49.938] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: GeForce GTX 650 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 391.35, NVIDIA Corporation
-[30июн.2025 13:37:50.236] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\blink\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.2\69932762bf197a54e59c5beb40e2a796cb7b0344\javafmllanguage-1.20.1-47.4.2.jar is missing mods.toml file
-[30июн.2025 13:37:50.241] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\blink\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.2\558f84c8439daeb45b9d72391572781e8d52039f\lowcodelanguage-1.20.1-47.4.2.jar is missing mods.toml file
-[30июн.2025 13:37:50.244] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\blink\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.2\b861aade365eff21af88b465e5fb32b643b2db4d\mclanguage-1.20.1-47.4.2.jar is missing mods.toml file
-[30июн.2025 13:37:50.248] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\blink\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.2\e64efc556f126e900f6656987f2641f639b7a3e2\fmlcore-1.20.1-47.4.2.jar is missing mods.toml file
-[30июн.2025 13:37:50.337] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[30июн.2025 13:37:51.712] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\blink\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[30июн.2025 13:37:55.884] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 159 milliseconds
-[30июн.2025 13:37:57.783] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/blink/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.2_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.2_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[30июн.2025 13:37:57.783] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/blink/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.2_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.2_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[30июн.2025 13:37:57.806] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30июн.2025 13:37:57.816] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[30июн.2025 13:37:57.962] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[30июн.2025 13:37:58.520] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.2, for MC 1.20.1 with MCP 20230612.114412
-[30июн.2025 13:37:58.520] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.2 Initialized
-[30июн.2025 13:37:59.733] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [rangefinder]
-[30июн.2025 13:37:59.847] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[30июн.2025 13:37:59.975] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[30июн.2025 13:38:00.066] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30июн.2025 13:38:00.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.2 Target: 47.4.3
-[30июн.2025 13:38:02.687] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[30июн.2025 13:38:02.687] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[30июн.2025 13:38:02.744] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (USB Audio Device)
-[30июн.2025 13:38:02.744] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[30июн.2025 13:38:02.846] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[30июн.2025 13:38:02.857] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[30июн.2025 13:38:02.857] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[30июн.2025 13:38:02.858] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[30июн.2025 13:38:02.858] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[30июн.2025 13:38:02.860] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[30июн.2025 13:38:02.863] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[30июн.2025 13:38:02.865] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[30июн.2025 13:38:02.865] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[30июн.2025 13:38:03.197] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[30июн.2025 13:38:03.271] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[30июн.2025 13:38:03.273] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[30июн.2025 13:38:03.273] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[30июн.2025 13:38:03.637] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[30июн.2025 13:38:12.034] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[30июн.2025 13:38:13.615] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[30июн.2025 13:38:13.722] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[30июн.2025 13:38:14.139] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[30июн.2025 13:38:14.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30июн.2025 13:38:15.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30июн.2025 13:38:18.275] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30июн.2025 13:38:18.275] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30июн.2025 13:38:18.275] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30июн.2025 13:38:18.275] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30июн.2025 13:38:18.276] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30июн.2025 13:38:18.276] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30июн.2025 13:38:18.707] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[30июн.2025 13:38:19.170] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30июн.2025 13:38:19.174] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3478 ms
-[30июн.2025 13:38:19.304] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[30июн.2025 13:38:19.307] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[30июн.2025 13:38:19.412] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[30июн.2025 13:38:19.804] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[30июн.2025 13:38:19.862] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ef2a2a01] logged in with entity id 209 at (128.80176998472578, 72.11650136792812, -134.34954470809322)
-[30июн.2025 13:38:19.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[30июн.2025 13:38:20.673] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
-[30июн.2025 13:38:23.023] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Не попал ни во что.
-[30июн.2025 13:38:24.260] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=125, y=70, z=-136}
-[30июн.2025 13:38:24.958] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=109, y=70, z=-141}
-[30июн.2025 13:38:25.452] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=91, y=72, z=-146}
-[30июн.2025 13:38:25.905] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Не попал ни во что.
-[30июн.2025 13:38:27.429] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=80, z=-251}
-[30июн.2025 13:38:28.727] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=80, z=-251}
-[30июн.2025 13:38:29.877] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=80, z=-251}
-[30июн.2025 13:38:30.193] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=80, z=-251}
-[30июн.2025 13:38:30.343] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=80, z=-251}
-[30июн.2025 13:38:30.493] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=80, z=-251}
-[30июн.2025 13:38:30.650] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=80, z=-251}
-[30июн.2025 13:38:30.810] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:30.963] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:31.127] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:31.286] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:31.442] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:31.620] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:31.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:31.960] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:32.186] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=79, z=-250}
-[30июн.2025 13:38:32.377] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=78, z=-250}
-[30июн.2025 13:38:32.563] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=78, z=-250}
-[30июн.2025 13:38:32.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=78, z=-250}
-[30июн.2025 13:38:32.855] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Попал в блок: MutableBlockPos{x=130, y=78, z=-250}
-[30июн.2025 13:38:36.771] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[30июн.2025 13:38:36.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[30июн.2025 13:38:36.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[30июн.2025 13:38:36.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[30июн.2025 13:38:37.997] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[30июн.2025 13:38:37.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[30июн.2025 13:38:38.006] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[30июн.2025 13:38:38.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[30июн.2025 13:38:38.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[30июн.2025 13:38:38.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[30июн.2025 13:38:38.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[30июн.2025 13:38:39.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[30июн.2025 13:38:39.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[30июн.2025 13:38:39.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[30июн.2025 13:38:39.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30июн.2025 13:38:39.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30июн.2025 13:38:39.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[30июн.2025 13:38:40.112] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[30июн.2025 14:33:11.314] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\blink\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.2, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[30июн.2025 14:33:11.319] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[30июн.2025 14:33:11.459] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[30июн.2025 14:33:11.563] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[30июн.2025 14:33:12.168] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[30июн.2025 14:33:12.282] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/blink/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[30июн.2025 14:33:12.330] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: GeForce GTX 650 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 391.35, NVIDIA Corporation
+[30июн.2025 14:33:12.634] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\blink\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.2\69932762bf197a54e59c5beb40e2a796cb7b0344\javafmllanguage-1.20.1-47.4.2.jar is missing mods.toml file
+[30июн.2025 14:33:12.636] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\blink\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.2\558f84c8439daeb45b9d72391572781e8d52039f\lowcodelanguage-1.20.1-47.4.2.jar is missing mods.toml file
+[30июн.2025 14:33:12.641] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\blink\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.2\b861aade365eff21af88b465e5fb32b643b2db4d\mclanguage-1.20.1-47.4.2.jar is missing mods.toml file
+[30июн.2025 14:33:12.644] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\blink\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.2\e64efc556f126e900f6656987f2641f639b7a3e2\fmlcore-1.20.1-47.4.2.jar is missing mods.toml file
+[30июн.2025 14:33:12.728] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30июн.2025 14:33:13.992] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\blink\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[30июн.2025 14:33:18.197] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 152 milliseconds
+[30июн.2025 14:33:20.099] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/blink/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.2_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.2_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[30июн.2025 14:33:20.100] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/blink/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.2_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.2_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[30июн.2025 14:33:20.117] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30июн.2025 14:33:20.122] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[30июн.2025 14:33:20.247] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[30июн.2025 14:33:20.607] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.2, for MC 1.20.1 with MCP 20230612.114412
+[30июн.2025 14:33:20.607] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.2 Initialized
+[30июн.2025 14:33:21.539] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [rangefinder]
+[30июн.2025 14:33:21.642] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[30июн.2025 14:33:21.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30июн.2025 14:33:21.757] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[30июн.2025 14:33:22.641] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.2 Target: 47.4.3
+[30июн.2025 14:33:24.482] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[30июн.2025 14:33:24.483] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[30июн.2025 14:33:24.525] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (USB Audio Device)
+[30июн.2025 14:33:24.526] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[30июн.2025 14:33:24.709] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[30июн.2025 14:33:24.719] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[30июн.2025 14:33:24.719] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[30июн.2025 14:33:24.720] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[30июн.2025 14:33:24.722] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[30июн.2025 14:33:24.724] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[30июн.2025 14:33:24.726] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[30июн.2025 14:33:24.726] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[30июн.2025 14:33:24.726] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[30июн.2025 14:33:25.016] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[30июн.2025 14:33:25.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[30июн.2025 14:33:25.086] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[30июн.2025 14:33:25.086] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[30июн.2025 14:33:25.499] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[30июн.2025 14:34:10.746] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[30июн.2025 14:34:12.315] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[30июн.2025 14:34:12.412] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[30июн.2025 14:34:12.892] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[30июн.2025 14:34:12.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30июн.2025 14:34:14.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30июн.2025 14:34:16.574] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30июн.2025 14:34:16.594] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30июн.2025 14:34:16.594] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30июн.2025 14:34:16.613] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30июн.2025 14:34:16.613] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30июн.2025 14:34:16.940] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30июн.2025 14:34:17.438] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[30июн.2025 14:34:17.709] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30июн.2025 14:34:17.715] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3281 ms
+[30июн.2025 14:34:17.860] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[30июн.2025 14:34:17.862] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[30июн.2025 14:34:17.954] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[30июн.2025 14:34:18.322] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[30июн.2025 14:34:18.384] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:72e54f1e] logged in with entity id 208 at (175.6186777617883, 78.49162015032418, -172.9165482748819)
+[30июн.2025 14:34:18.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[30июн.2025 14:34:19.297] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[30июн.2025 14:34:23.668] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 174 71 -166
+[30июн.2025 14:34:23.677] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 10.4
+[30июн.2025 14:34:24.402] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 174 70 -165
+[30июн.2025 14:34:24.402] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 11.8
+[30июн.2025 14:34:24.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 174 70 -164
+[30июн.2025 14:34:24.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 13.0
+[30июн.2025 14:34:24.775] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 175 70 -164
+[30июн.2025 14:34:24.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 14.2
+[30июн.2025 14:34:24.936] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 177 72 -166
+[30июн.2025 14:34:24.936] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 11.7
+[30июн.2025 14:34:25.077] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 177 71 -165
+[30июн.2025 14:34:25.078] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 13.8
+[30июн.2025 14:34:25.236] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 179 71 -165
+[30июн.2025 14:34:25.236] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 14.7
+[30июн.2025 14:34:26.132] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 185 71 -165
+[30июн.2025 14:34:26.132] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 17.9
+[30июн.2025 14:34:26.321] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 186 71 -163
+[30июн.2025 14:34:26.321] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 20.3
+[30июн.2025 14:34:26.494] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 187 71 -162
+[30июн.2025 14:34:26.494] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 21.9
+[30июн.2025 14:34:26.694] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 188 71 -162
+[30июн.2025 14:34:26.694] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 22.7
+[30июн.2025 14:34:26.884] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 190 72 -164
+[30июн.2025 14:34:26.885] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 21.0
+[30июн.2025 14:34:27.077] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 191 71 -163
+[30июн.2025 14:34:27.077] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 22.6
+[30июн.2025 14:34:30.111] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 210 72 -182
+[30июн.2025 14:34:30.111] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 20.4
+[30июн.2025 14:34:30.298] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 213 70 -179
+[30июн.2025 14:34:30.299] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 23.7
+[30июн.2025 14:34:30.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 213 69 -171
+[30июн.2025 14:34:30.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 25.7
+[30июн.2025 14:34:30.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 207 69 -163
+[30июн.2025 14:34:30.627] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 26.4
+[30июн.2025 14:34:30.793] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 200 71 -161
+[30июн.2025 14:34:30.793] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 24.5
+[30июн.2025 14:34:30.993] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 190 73 -165
+[30июн.2025 14:34:30.993] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 21.0
+[30июн.2025 14:34:31.160] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 182 71 -170
+[30июн.2025 14:34:31.160] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 23.6
+[30июн.2025 14:34:31.326] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 179 72 -176
+[30июн.2025 14:34:31.327] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 23.5
+[30июн.2025 14:34:31.527] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 184 75 -188
+[30июн.2025 14:34:31.527] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 19.7
+[30июн.2025 14:34:31.694] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 196 80 -185
+[30июн.2025 14:34:31.694] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 9.3
+[30июн.2025 14:34:31.860] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 199 80 -184
+[30июн.2025 14:34:31.860] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 9.0
+[30июн.2025 14:34:32.043] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 206 71 -182
+[30июн.2025 14:34:32.043] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 18.9
+[30июн.2025 14:34:32.216] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 206 69 -173
+[30июн.2025 14:34:32.216] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 21.3
+[30июн.2025 14:34:32.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 196 71 -168
+[30июн.2025 14:34:32.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 19.6
+[30июн.2025 14:34:32.843] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 194 71 -169
+[30июн.2025 14:34:32.843] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 19.2
+[30июн.2025 14:34:33.017] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 184 72 -175
+[30июн.2025 14:34:33.017] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 20.2
+[30июн.2025 14:34:33.209] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 182 73 -182
+[30июн.2025 14:34:33.210] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 20.6
+[30июн.2025 14:34:33.376] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 191 78 -188
+[30июн.2025 14:34:33.377] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 14.0
+[30июн.2025 14:34:33.593] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 199 79 -189
+[30июн.2025 14:34:33.593] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 13.1
+[30июн.2025 14:34:33.747] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 202 78 -189
+[30июн.2025 14:34:33.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 14.6
+[30июн.2025 14:34:33.959] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 213 72 -187
+[30июн.2025 14:34:33.961] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 23.7
+[30июн.2025 14:34:34.117] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 217 70 -178
+[30июн.2025 14:34:34.117] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 26.7
+[30июн.2025 14:34:34.309] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 212 69 -162
+[30июн.2025 14:34:34.310] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 29.3
+[30июн.2025 14:34:34.493] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Вы смотрите на блок: 195 70 -155
+[30июн.2025 14:34:34.493] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Расстояние до блока: 29.6
+[30июн.2025 14:34:37.610] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30июн.2025 14:34:37.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30июн.2025 14:34:37.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30июн.2025 14:34:37.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30июн.2025 14:34:40.511] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30июн.2025 14:34:40.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30июн.2025 14:34:40.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30июн.2025 14:34:40.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30июн.2025 14:35:36.917] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[30июн.2025 14:35:36.921] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[30июн.2025 14:35:36.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[30июн.2025 14:35:36.930] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[30июн.2025 14:35:36.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30июн.2025 14:35:36.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30июн.2025 14:35:36.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30июн.2025 14:35:37.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30июн.2025 14:35:37.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30июн.2025 14:35:37.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30июн.2025 14:35:37.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[30июн.2025 14:35:37.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30июн.2025 14:35:37.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30июн.2025 14:35:37.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

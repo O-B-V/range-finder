@@ -26,7 +26,9 @@ public class ClientEvents {
         public static void onKeyInput(InputEvent.Key event) {
             if(KeyBindingHelper.rangeFinderKey.consumeClick()) {
                 HitResult hit = mc.hitResult;
-
+                double x = mc.player.getX();
+                double y = mc.player.getY();
+                double z = mc.player.getZ();
                 if (mc.player != null && mc.screen == null) {
                     Entity cameraEntity = mc.getCameraEntity();
                     Camera camera = mc.gameRenderer.getMainCamera();
@@ -40,9 +42,12 @@ public class ClientEvents {
 
                     if (result.getType() != HitResult.Type.MISS) {
                         BlockPos pos = result.getBlockPos();
-                            mc.player.sendSystemMessage(Component.literal("Попал в блок: " + pos));
+                            mc.player.sendSystemMessage(Component.literal("§6" + "Вы смотрите на блок:" + " §l§c" + pos.getX() + " §a" + pos.getY() + " §9" + pos.getZ()));
+                            double range;
+                            range = Math.ceil(Math.sqrt((pos.getX()-x)*(pos.getX()-x)+(pos.getY()-y)*(pos.getY()-y)+(pos.getZ()-z)*(pos.getZ()-z))*10)/10;
+                            mc.player.sendSystemMessage(Component.literal("§6" + "Расстояние до блока:" + " §d" + range));
                         } else {
-                            mc.player.sendSystemMessage(Component.literal("Не попал ни во что."));
+                            mc.player.sendSystemMessage(Component.literal("§6" + "Вы не смотрите на блок"));
                         }
 
                 }
