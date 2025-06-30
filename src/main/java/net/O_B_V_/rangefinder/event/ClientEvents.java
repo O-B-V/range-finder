@@ -45,11 +45,12 @@ public class ClientEvents {
 
                     if (result.getType() != HitResult.Type.MISS) {
                         BlockPos pos = result.getBlockPos();
-                        mc.player.sendSystemMessage(Component.literal(" "));
+                            mc.player.sendSystemMessage(Component.literal(" "));
                             mc.player.sendSystemMessage(Component.literal("§6" + I18n.get("chat_screen.message.lookAtBlock") + " §l§c" + pos.getX() + " §a" + pos.getY() + " §9" + pos.getZ()));
                             double range;
                             range = Math.ceil(Math.sqrt((pos.getX()-x)*(pos.getX()-x)+(pos.getY()-y)*(pos.getY()-y)+(pos.getZ()-z)*(pos.getZ()-z))*10)/10;
                             mc.player.sendSystemMessage(Component.literal("§6" + I18n.get("chat_screen.message.distanceToBlock") + " §d" + range));
+                        mc.player.sendSystemMessage(Component.literal(" "));
                         } else {
                             mc.player.sendSystemMessage(Component.literal("§6" + I18n.get("chat_screen.message.blockNotDetected")));
                     }
